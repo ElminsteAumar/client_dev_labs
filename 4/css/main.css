@@ -1,0 +1,130 @@
+h1, p {
+  color: gray;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: all .3s;
+}
+a:hover {
+  color: orangered !important;
+}
+#content {
+  margin: 0 30px;
+}
+.det a{
+  color: red;
+}
+.details h2 a {
+  color: red;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+#content h1 {
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+#menu {
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#menu li {
+  list-style: none;
+  float: left;
+  margin-right: 40px;
+
+}
+#menu li a {
+  color: gray;
+  font-weight: bold;
+}
+
+.post {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  clear: right;
+}
+.post .details {
+  float: left;
+  width: 30%;
+  margin-right: 30px;
+  border-right: 1px solid lightgray;
+  padding-right: 5px;
+  min-height: 200px;
+}
+.details p a {
+  border-bottom: 2px dashed lightgray;
+}
+.post .body {
+  padding-left: 20px;
+  line-height: 1.5em;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+.body p {
+  margin: 0;
+}
+.x {
+  clear: both;
+}
+.col h3 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+div.col {
+  float: left;
+  width: 30%;
+  padding-right: 3%;
+  line-height: 1.5em;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 30px;
+}
+#footer a{
+  color: red;
+}
+
+/** responsive **/
+@media only screen and (max-device-width: 768px) {
+  div.col {
+    float: none;
+    width: 100%;
+    padding-right: 0%;
+  }
+  .post .body {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-device-width: 425px) {
+  .post .body {
+    font-size: 0.6em;
+  }
+  .post .details {
+    height: 350px;
+  }
+  .post .details p {
+    font-size: 1.5em;
+  }
+  #menu {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  .post .details {
+    height: 450px;
+  }
+  .post .details p {
+    font-size: 1.7em;
+  }
+  #menu {
+    font-size: 1.6em;
+  }
+}

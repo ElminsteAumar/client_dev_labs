@@ -1,2 +1,2 @@
-# client_dev_labs
-Client development labs
+# Client development homeworks
+Homeworks for course 'Client development'
